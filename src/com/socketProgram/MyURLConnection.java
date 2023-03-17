@@ -2,7 +2,6 @@ package com.socketProgram;
 
 import java.io.*;
 import java.net.*;
-import java.sql.SQLOutput;
 import java.util.Date;
 
 public class MyURLConnection {
