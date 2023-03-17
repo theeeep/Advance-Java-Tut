@@ -23,7 +23,7 @@ public class MyURLConnection {
 
             long ExpiryDate = urlConnection.getExpiration();
             if (ExpiryDate == 0){
-                System.out.println("No Date Information");
+                System.out.println("No Expiry Date Information");
             }else {
                 System.out.println("Expiry Date: "+new Date(ExpiryDate));
             }
